@@ -10,7 +10,7 @@ Use the checklists below to track progress. Mark items with `[x]` as you complet
 
 | Phase | Focus | Status |
 |-------|--------|--------|
-| 0 | Assets & image pipeline | [ ] Not started |
+| 0 | Assets & image pipeline | [x] Complete |
 | 1 | Navigation, scroll, and mobile menu | [ ] Not started |
 | 2 | CTA consistency, dialog refactor, placement | [ ] Not started |
 | 3 | Footer contact & trust signals | [ ] Not started |
@@ -20,7 +20,7 @@ Use the checklists below to track progress. Mark items with `[x]` as you complet
 | 7 | Visual design, tokens, motion | [ ] Not started |
 | 8 | Final QA pass | [ ] Not started |
 
-**Overall:** `[ ]` 0 / 8 phases complete
+**Overall:** `[x]` 1 / 8 phases complete
 
 ---
 
@@ -52,30 +52,30 @@ Use the checklists below to track progress. Mark items with `[x]` as you complet
 
 ### Asset checklist
 
-- [ ] **Hero portrait** — `public/dr-thorne.png` (3:4 aspect, clinical-neutral background, consistent with brand)
-- [ ] **Philosophy image** — `public/philosophy.png` (4:5 aspect, treatment room or editorial detail)
-- [ ] **Transformation set 1** — `public/transform-1-before.png`, `public/transform-1-after.png`
-- [ ] **Transformation set 2** — `public/transform-2-before.png`, `public/transform-2-after.png`
-- [ ] **Transformation set 3** — `public/transform-3-before.png`, `public/transform-3-after.png`
-- [ ] **Favicon light** — `public/icon-light-32x32.png`
-- [ ] **Favicon dark** — `public/icon-dark-32x32.png`
-- [ ] **Apple touch icon** — `public/apple-icon.png`
-- [ ] **Open Graph image** — `public/og-image.png` (1200×630 recommended; can reuse hero or branded composite)
+- [x] **Hero portrait** — `public/dr-thorne.png` (3:4 aspect, clinical-neutral background, consistent with brand)
+- [x] **Philosophy image** — `public/philosophy.png` (4:5 aspect, treatment room or editorial detail)
+- [x] **Transformation set 1** — `public/transform-1-before.png`, `public/transform-1-after.png`
+- [x] **Transformation set 2** — `public/transform-2-before.png`, `public/transform-2-after.png`
+- [x] **Transformation set 3** — `public/transform-3-before.png`, `public/transform-3-after.png`
+- [x] **Favicon light** — `public/icon-light-32x32.png`
+- [x] **Favicon dark** — `public/icon-dark-32x32.png`
+- [x] **Apple touch icon** — `public/apple-icon.png`
+- [x] **Open Graph image** — `public/og-image.png` (1200×630 recommended; can reuse hero or branded composite)
 
 ### Image quality guidelines
-- [ ] Consistent lighting and color grading across all photos
-- [ ] Meaningful `alt` text already in components — verify it matches final images
-- [ ] Explicit aspect ratios preserved in components (`aspect-[3/4]`, `aspect-[4/5]`) — no layout shift
+- [x] Consistent lighting and color grading across all photos
+- [x] Meaningful `alt` text already in components — verify it matches final images
+- [x] Explicit aspect ratios preserved in components (`aspect-[3/4]`, `aspect-[4/5]`) — no layout shift
 
 ### Next.js image config
-- [ ] Remove or set `images.unoptimized: false` in `next.config.mjs` after assets are added
-- [ ] Confirm `next/image` loads all paths in dev and production build
-- [ ] Hero image keeps `priority`; below-fold images use appropriate `sizes`
+- [x] Remove or set `images.unoptimized: false` in `next.config.mjs` after assets are added
+- [x] Confirm `next/image` loads all paths in dev and production build
+- [x] Hero image keeps `priority`; below-fold images use appropriate `sizes`
 
 ### Phase 0 verification
-- [ ] No broken image placeholders in browser
-- [ ] Favicons appear in browser tab (light/dark if applicable)
-- [ ] Lighthouse / devtools: no 404s for image requests
+- [x] No broken image placeholders in browser
+- [x] Favicons appear in browser tab (light/dark if applicable)
+- [x] Lighthouse / devtools: no 404s for image requests
 
 ---
 

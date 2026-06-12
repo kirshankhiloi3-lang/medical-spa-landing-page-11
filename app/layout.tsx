@@ -19,7 +19,27 @@ export const metadata: Metadata = {
   title: 'Thorne Aesthetics | Refined Precision. Invisible Artistry.',
   description:
     'A high-end medical aesthetics practice led by Dr. Evelyn Thorne. Natural-looking results through clinical precision in Union Square, San Francisco.',
-  generator: 'v0.app',
+  openGraph: {
+    title: 'Thorne Aesthetics | Refined Precision. Invisible Artistry.',
+    description:
+      'A high-end medical aesthetics practice led by Dr. Evelyn Thorne. Natural-looking results through clinical precision in Union Square, San Francisco.',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Thorne Aesthetics — Refined precision. Invisible artistry.',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Thorne Aesthetics | Refined Precision. Invisible Artistry.',
+    description:
+      'A high-end medical aesthetics practice led by Dr. Evelyn Thorne. Natural-looking results through clinical precision in Union Square, San Francisco.',
+    images: ['/og-image.png'],
+  },
   icons: {
     icon: [
       {
